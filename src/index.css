@@ -1,0 +1,85 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'Amaranth';
+  src: url('/assets/fonts/Amaranth-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'MainFont';
+  src: url('/assets/fonts/mainfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'F2';
+  src: url('/assets/fonts/f2.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'RobotoSlab';
+  src: url('/assets/fonts/RobotoSlab-ExtraBold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Base styles */
+:root {
+  font-family: 'MainFont', system-ui, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background-color: #ffffff;
+}
+
+/* Animation classes */
+.animate-fade-in-up {
+  animation: fadeInUp 0.6s ease-out forwards;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Font utility classes */
+.el-messiri-font {
+  font-family: 'Amaranth', sans-serif;
+}
+
+.zain-font {
+  font-family: 'MainFont', sans-serif;
+}
+
+/* App.css or index.css */
+
+/* Add a custom font stack for blog content */
+.blog-content-serif {
+  /* This stack mimics the classic serif look */
+  font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+/* Optional: If you want all headers to also use a serif font */
+/*
+.blog-content-serif h1, .blog-content-serif h2, .blog-content-serif h3 {
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+}
+*/
