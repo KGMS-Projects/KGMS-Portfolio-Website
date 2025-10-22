@@ -1,27 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+    xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+    xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+    <!-- Homepage -->
     <url>
         <loc>https://mihilayansachinthana.com/</loc>
-        <lastmod>2024-03-08</lastmod>
+        <lastmod>2025-01-22</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
+        <image:image>
+            <image:loc>https://mihilayansachinthana.com/assets/images/mainimg.png</image:loc>
+            <image:title>Mihilayan Sachinthana - Software Engineering Undergraduate</image:title>
+            <image:caption>Portrait of Mihilayan Sachinthana, Full Stack Developer</image:caption>
+        </image:image>
     </url>
+
+    <!-- Projects Page -->
     <url>
         <loc>https://mihilayansachinthana.com/projects</loc>
-        <lastmod>2024-03-08</lastmod>
+        <lastmod>2025-01-22</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <!-- Pearl & Prestige Project -->
+    <url>
+        <loc>https://mihilayansachinthana.com/projects/pearl-prestige</loc>
+        <lastmod>2025-01-22</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://mihilayansachinthana.com/assets/images/pear&amp;prestigemainimg.jpg</image:loc>
+            <image:title>Pearl &amp; Prestige E-commerce Platform</image:title>
+            <image:caption>Laravel-based e-commerce fashion website</image:caption>
+        </image:image>
     </url>
+
+    <!-- VentureSpark Project -->
+    <url>
+        <loc>https://mihilayansachinthana.com/projects/venturespark</loc>
+        <lastmod>2025-01-22</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://mihilayansachinthana.com/assets/images/venturemainimg.jpg</image:loc>
+            <image:title>VentureSpark Business Consultation Platform</image:title>
+            <image:caption>Next.js business consultation booking platform</image:caption>
+        </image:image>
+    </url>
+
+    <!-- Blog Page -->
     <url>
         <loc>https://mihilayansachinthana.com/blog</loc>
-        <lastmod>2024-03-08</lastmod>
+        <lastmod>2025-01-22</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
+
+    <!-- Contact Page -->
     <url>
         <loc>https://mihilayansachinthana.com/contact</loc>
-        <lastmod>2024-03-08</lastmod>
+        <lastmod>2025-01-22</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
-</urlset> 
+
+</urlset>
